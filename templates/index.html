@@ -16,16 +16,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 90%;
             background-color: #f4f4f4;
             color: #333;
             transition: background-color 0.3s, color 0.3s;
         }
 
         #container {
-            width: 80%;
+            width:90%;
             max-width: 90%;
-            padding: 20px;
+            padding: 50px;
             border-radius: 8px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -120,12 +120,83 @@
         .dark-mode #resultado pre.error {
             color: #ff6188 !important;
         }
+
+        nav {
+ 
+    padding: 15px 0; /* Espaçamento interno do menu */
+}
+
+#menu-main {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+    display: flex; /* Alinha os itens em uma linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+#menu-main li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+#menu-main a {
+   
+    text-decoration: none; /* Remove sublinhado dos links */
+    padding: 10px 20px; /* Espaçamento interno dos links */
+    display: block; /* Faz com que o link ocupe todo o espaço do item */
+    transition: background-color 0.3s; /* Transição suave para a mudança de cor de fundo */
+}
+
+#menu-main a:hover {
+
+    border-radius: 5px; /* Borda arredondada ao passar o mouse */
+}
+
+    
     </style>
 </head>
 <body>
-    
+<div>
+   
     <div id="container">
-        <h1>Python Online</h1>
+        <h1>Mente Maker - Python Online</h1>
+        <div>
+            <nav>
+                <ul id="menu-main">
+                    <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+                        <a class="suki-menu-item-link" href="https://github.com/Makerjunior">
+                            <span class="suki-menu-item-title">Github</span>
+                        </a>
+                    </li>
+                    <li id="menu-item-356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-356">
+                        <a class="suki-menu-item-link" href="https://www.npmjs.com/~makerjuniorpereira">
+                            <span class="suki-menu-item-title">NPM</span>
+                        </a>
+                    </li>
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
+                        <a class="suki-menu-item-link" href="https://discord.com/invite/jGMdKehPkf">
+                            <span class="suki-menu-item-title">Discord</span>
+                        </a>
+                    </li>
+                    <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
+                        <a class="suki-menu-item-link" href="https://www.instagram.com/mente___maker/">
+                            <span class="suki-menu-item-title">Instagram</span>
+                        </a>
+                    </li>
+                    <li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
+                        <a class="suki-menu-item-link" href="https://chat.whatsapp.com/GsN1nFTGOpG5gX2n7sXBqR">
+                            <span class="suki-menu-item-title">WhatsApp</span>
+                        </a>
+                    </li>
+                    <li id="menu-item-357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-357">
+                        <a class="suki-menu-item-link" href="https://www.tiktok.com/@mente.maker">
+                            <span class="suki-menu-item-title">TikTok</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+    </div>
+        <br>
         <button onclick="toggleTheme()">Alterar Tema</button>
         <p>Insira seu código Python abaixo e clique no botão "Executar" para ver o resultado:</p>
         <textarea id="code" placeholder="# Insira seu código aqui" spellcheck="false"></textarea><br>
