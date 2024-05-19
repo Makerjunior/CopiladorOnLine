@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Mente Maker">
     <meta property="og:description" content="Python Online">
-    <meta id="icon" property="og:image" content="https://copiladoronline.onrender.com/static/img/logo.ico">
-    <meta property="og:url" content="https://copiladoronline.onrender.com">
+    <meta id="icon" property="og:image" content="https://yt3.googleusercontent.com/_9ySzLdgPWVtE0yyiSIHlw5yejMDBHiryy-nVxDIqObvVoO-BGLm72NJVV0LENmrJrMTFoRC=s900-c-k-c0x00ffffff-no-rj">
+    <meta property="og:url" content="https://yt3.googleusercontent.com/_9ySzLdgPWVtE0yyiSIHlw5yejMDBHiryy-nVxDIqObvVoO-BGLm72NJVV0LENmrJrMTFoRC=s900-c-k-c0x00ffffff-no-rj">
     <title>Python Online</title>
     <style>
         body {
@@ -15,17 +15,17 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 90%;
+            align-items: flex-start; /* Alinha o conteúdo ao topo */
+            height: 100vh; /* Ocupa a altura total da tela */
             background-color: #f4f4f4;
             color: #333;
             transition: background-color 0.3s, color 0.3s;
         }
 
         #container {
-            width:90%;
-            max-width: 90%;
-            padding: 50px;
+            width: calc(100% - 50px); /* Largura da tela menos 50px (25px de cada lado) */
+            padding: 20px;
+            margin: 25px; /* Adiciona espaçamento ao redor */
             border-radius: 8px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -34,6 +34,7 @@
 
         h1 {
             text-align: center;
+            margin-top: 10px; /* Distância do topo da tela */
             margin-bottom: 20px;
             color: #007bff;
         }
@@ -43,7 +44,7 @@
         }
 
         textarea {
-            width: 98%;
+            width: calc(100% - 20px); /* Ajusta largura para incluir padding */
             height: 350px;
             margin-bottom: 10px;
             padding: 10px;
@@ -122,80 +123,71 @@
         }
 
         nav {
- 
-    padding: 15px 0; /* Espaçamento interno do menu */
-}
+            padding: 15px 0; /* Espaçamento interno do menu */
+        }
 
-#menu-main {
-    list-style-type: none; /* Remove os marcadores de lista */
-    margin: 0; /* Remove margens */
-    padding: 0; /* Remove preenchimento */
-    display: flex; /* Alinha os itens em uma linha */
-    justify-content: center; /* Centraliza os itens */
-}
+        #menu-main {
+            list-style-type: none; /* Remove os marcadores de lista */
+            margin: 0; /* Remove margens */
+            padding: 0; /* Remove preenchimento */
+            display: flex; /* Alinha os itens em uma linha */
+            justify-content: center; /* Centraliza os itens */
+        }
 
-#menu-main li {
-    margin: 0 15px; /* Espaçamento entre os itens */
-}
+        #menu-main li {
+            margin: 0 15px; /* Espaçamento entre os itens */
+        }
 
-#menu-main a {
-   
-    text-decoration: none; /* Remove sublinhado dos links */
-    padding: 10px 20px; /* Espaçamento interno dos links */
-    display: block; /* Faz com que o link ocupe todo o espaço do item */
-    transition: background-color 0.3s; /* Transição suave para a mudança de cor de fundo */
-}
+        #menu-main a {
+            text-decoration: none; /* Remove sublinhado dos links */
+            padding: 10px 20px; /* Espaçamento interno dos links */
+            display: block; /* Faz com que o link ocupe todo o espaço do item */
+            transition: background-color 0.3s; /* Transição suave para a mudança de cor de fundo */
+        }
 
-#menu-main a:hover {
-
-    border-radius: 5px; /* Borda arredondada ao passar o mouse */
-}
-
-    
+        #menu-main a:hover {
+            border-radius: 5px; /* Borda arredondada ao passar o mouse */
+        }
     </style>
 </head>
 <body>
-<div>
-   
     <div id="container">
-        <h1>Mente Maker - Python Online</h1>
-        <div>
-            <nav>
-                <ul id="menu-main">
-                    <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
-                        <a class="suki-menu-item-link" href="https://github.com/Makerjunior">
-                            <span class="suki-menu-item-title">Github</span>
-                        </a>
-                    </li>
-                    <li id="menu-item-356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-356">
-                        <a class="suki-menu-item-link" href="https://www.npmjs.com/~makerjuniorpereira">
-                            <span class="suki-menu-item-title">NPM</span>
-                        </a>
-                    </li>
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
-                        <a class="suki-menu-item-link" href="https://discord.com/invite/jGMdKehPkf">
-                            <span class="suki-menu-item-title">Discord</span>
-                        </a>
-                    </li>
-                    <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
-                        <a class="suki-menu-item-link" href="https://www.instagram.com/mente___maker/">
-                            <span class="suki-menu-item-title">Instagram</span>
-                        </a>
-                    </li>
-                    <li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
-                        <a class="suki-menu-item-link" href="https://chat.whatsapp.com/GsN1nFTGOpG5gX2n7sXBqR">
-                            <span class="suki-menu-item-title">WhatsApp</span>
-                        </a>
-                    </li>
-                    <li id="menu-item-357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-357">
-                        <a class="suki-menu-item-link" href="https://www.tiktok.com/@mente.maker">
-                            <span class="suki-menu-item-title">TikTok</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            
-    </div>
+        <h1><a href="https://www.mentemaker.com.br">Mente Maker - Python Online</a></h1>
+        <nav>
+        <nav>
+            <ul id="menu-main">
+                <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+                    <a class="suki-menu-item-link" href="https://github.com/Makerjunior">
+                        <span class="suki-menu-item-title">Github</span>
+                    </a>
+                </li>
+                <li id="menu-item-356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-356">
+                    <a class="suki-menu-item-link" href="https://www.npmjs.com/~makerjuniorpereira">
+                        <span class="suki-menu-item-title">NPM</span>
+                    </a>
+                </li>
+                <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
+                    <a class="suki-menu-item-link" href="https://discord.com/invite/jGMdKehPkf">
+                        <span class="suki-menu-item-title">Discord</span>
+                    </a>
+                </li>
+                <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20">
+                    <a class="suki-menu-item-link" href="https://www.instagram.com/mente___maker/">
+                        <span class="suki-menu-item-title">Instagram</span>
+                    </a>
+                </li>
+                <li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
+                    <a class="suki-menu-item-link" href="https://chat.whatsapp.com/GsN1nFTGOpG5gX2n7sXBqR">
+                        <span class="suki-menu-item-title">WhatsApp</span>
+                    </a>
+                </li>
+                <li id="menu-item-357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-357">
+                    <a class="suki-menu-item-link" href="https://www.tiktok.com/@mente.maker">
+                        <span class="suki-menu-item-title">TikTok</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <br>
         <button onclick="toggleTheme()">Alterar Tema</button>
         <p>Insira seu código Python abaixo e clique no botão "Executar" para ver o resultado:</p>
